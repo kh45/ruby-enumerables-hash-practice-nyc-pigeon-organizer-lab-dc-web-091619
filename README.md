@@ -15,6 +15,7 @@ that newly structured data as a _new_ hash.
 ## Instructions
 
 ![NYC Pigeon](https://curriculum-content.s3.amazonaws.com/ruby-enumerables/pigeon-organizer/Image_12_PIGEON.png)
+    :grey => ["Theo", "Peter Jr.", "Ms. K"],
 
 You are helping a research group study pigeons in New York City. You are given
 the following collected data on New York City pigeons in the form of a hash:
@@ -23,7 +24,6 @@ the following collected data on New York City pigeons in the form of a hash:
 pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
-    :grey => ["Theo", "Peter Jr.", "Ms. K"],
     :white => ["Queenie", "Andrew", "Ms. K", "Alex"],
     :brown => ["Queenie", "Alex"]
   },
